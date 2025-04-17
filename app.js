@@ -50,12 +50,6 @@ const quotes = [
   },
 ]
 
-// Array emoji acak
-const emojis = [
-  "🤦‍♂️", "🐒", "🌮", "🤯", "🥳", "🦄", "🦥", "🍕", "🛌", 
-  "🚀", "🦖", "⏰", "🧠", "🌈", "🤡", "🧟‍♂️", "🧙‍♂️", "🦸‍♀️"
-];
-
 // Siapkan templat HTML
 const createWebPage = (quote, author, info) => `
 <!DOCTYPE html>
