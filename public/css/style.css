@@ -1,0 +1,152 @@
+
+/*
+    Background pattern provided by Subtle Patterns by Toptal
+    URL: https://www.toptal.com/designers/subtlepatterns/
+    Licensed under Creative Commons
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {  
+    font-family: "Roboto Flex", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url(../images/background/ecailles.png);
+    background-color: #f4fcff;;
+}
+
+.container {
+    max-width: 750px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #23252ed0; 
+}
+
+#quote-wrapper:hover{
+    transform: translateY(0px) 
+                translateX(0px);
+}
+
+#quote-wrapper{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    border: 3px solid #101630;
+    padding: 1px;
+    border-radius: 5px;
+    transition: all .2s;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: all .2s;
+    background: white;
+    transform: translateY(-10px) 
+                translateX(-10px);
+}
+
+#title {
+    text-align: left;
+    box-sizing: border-box;
+    padding: 5px ;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+    color: #fff;
+    background-color: #101630;
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#quote-symbol{
+    width: 40px;
+    font-weight: bold;
+    margin: 20px 0 5px 20px;
+}
+    
+#quote { 
+    font-size: 24pt; 
+    width : 600px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin: 10px 20px;
+    padding-bottom: 20px;
+}
+    
+#quote::after{content: '"';}
+
+#author{
+    right: 0;
+    bottom: 0;
+    font-size: 16pt;
+    margin: 27px;
+    font-family: "Roboto Flex", sans-serif;
+    width: max-content;
+    align-self: flex-end;
+}
+
+#author > #author-name::before{
+    content: '-';
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+#author > #author-info::before{
+    content: '';
+    margin-left: 13px;
+}
+
+#author > #author-name{font-weight: bold;}
+
+#author > #author-info{font-size: 10pt;}
+
+button {
+    margin-top: 40px;
+    padding: 12px 24px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+    border: #000 solid 1px;
+    font-weight: bold;
+}
+
+button:hover {  scale: 1.05; color: #000;}
+
+button::after:hover { transform: translate(20px 200px);  }
+
+button::after{
+    content: '';
+    display: block;
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -120px;
+    border-radius: 50%;
+    transition: all .5s;
+    z-index: -1;
+}
+
+button:hover::after{
+    translate: 0 -30px;
+    scale: 2.5;
+}
+
+#bottom{
+    background-color: #101630;
+    color: #fff;
+    padding: 5px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 0 0 3px 3px;
+}

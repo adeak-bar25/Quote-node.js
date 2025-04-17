@@ -84,7 +84,7 @@ const createWebPage = (quote, author, info) => `
     
     <!-- <div class="quote">"${quote}"</div> -->
   </div>
-  <button onclick="window.location.reload()">Quotes Baru</button>
+  <button onclick="window.location.reload()">Quote Baru</button>
 </body>
 </html>
 `;
