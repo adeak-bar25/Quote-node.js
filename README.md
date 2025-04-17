@@ -4,7 +4,7 @@
 Quote node.js adalah aplikasi berbasis web yang akan menampilkan quote dari beberapa tokoh terkenal.
 
 ## Screenshot
-![Screenshot aplikasi](screenshot\Screenshot.png)
+![Screenshot aplikasi](screenshot/Screenshot.png)
 
 ## Cara Instalasi
 ```bash
