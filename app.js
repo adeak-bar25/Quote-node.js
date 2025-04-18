@@ -6,7 +6,7 @@ const port = 3000;
 // mengakses file pada folder public
 app.use(express.static('public'));
 
-// Array kutipan absurd
+// Array kutipan 
 const quotes = [
   { quote: "Kehidupan adalah sebuah perjalanan, bukan tujuan.",
     author: "Ralph Waldo Emerson",
