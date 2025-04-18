@@ -73,7 +73,7 @@ const createWebPage = (quote, author, info) => `
             <div id="author-name">${author}</div>
             <div id="author-info">(${info})</div>
         </div>
-        <div id="bottom">Dibuat dengan ❤️ oleh Ade Akbar Magri Dinata </div>
+        <div id="bottom">Dibuat dengan ❤️ oleh Ade Akbar Magri Dinata | Kelas XI TKJ 1 | Kelas X Backend</div>
     </div>
     
     <!-- <div class="quote">"${quote}"</div> -->
