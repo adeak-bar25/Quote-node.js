@@ -9,7 +9,8 @@ Quote node.js adalah aplikasi berbasis web yang akan menampilkan quote dari bebe
 ## Cara Instalasi
 ```bash
 git clone https://github.com/adeak-bar25/Quote-node.js
-npm install express
+cd Quote-node.js
+npm install 
 node app.js
 ```
 
